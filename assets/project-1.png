@@ -1,0 +1,12 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0033ff;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="#1a1a1a"/>
+  <rect width="800" height="800" fill="url(#grad1)"/>
+  <text x="50%" y="50%" font-size="48" font-family="Arial" fill="#00d4ff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">PROJECT ONE</text>
+  <text x="50%" y="60%" font-size="24" font-family="Arial" fill="#b0b0b0" text-anchor="middle" dominant-baseline="middle">Replace with your image</text>
+</svg>
