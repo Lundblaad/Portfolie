@@ -168,7 +168,7 @@ body {
 }
 
 .image-container {
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 16 / 9;
 }
 
 .video-container video,
