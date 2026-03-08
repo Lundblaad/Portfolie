@@ -155,6 +155,13 @@ body {
     grid-column: span 2;
 }
 
+.portfolio-item.image-featured {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+}
+
 .video-container,
 .image-container {
     position: relative;
@@ -325,6 +332,11 @@ body {
         grid-column: span 1;
     }
 
+    .portfolio-item.image-featured {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
     .about-container {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -394,4 +406,19 @@ body {
     height: 100%;
     border: 0;
     display: block;
+}
+
+.card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.portfolio-item.image-featured .card-link {
+    flex: 1;
+}
+
+.portfolio-item.image-featured .image-container {
+    height: 100%;
+    aspect-ratio: auto;
 }
