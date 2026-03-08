@@ -101,9 +101,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 400px;
+    min-height: 280px;
     text-align: center;
-    padding: 4rem 0;
+    padding: 2rem 0 1rem;
 }
 
 .hero-content h1 {
@@ -133,7 +133,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    align-items: start;
 }
 
 .portfolio-item {
@@ -143,6 +144,7 @@ body {
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
+    align-self: start;
 }
 
 .portfolio-item:hover {
@@ -225,13 +227,14 @@ body {
 
 .item-info h3 {
     font-size: 1.3rem;
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.5rem;
     color: var(--text-primary);
 }
 
 .item-info p {
     color: var(--text-secondary);
     font-size: 0.95rem;
+    margin: 0;
 }
 
 /* About Section */
